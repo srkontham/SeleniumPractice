@@ -1,0 +1,73 @@
+Mozilla 9.0
+eclipse ide.
+
+import com.thoughtworks.selenium.HttpCommandProcessor; 	
+	import com.thoughtworks.selenium.Selenium; 	
+	import com.thoughtworks.selenium.DefaultSelenium; 	
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+http://seleniumforum.forumotion.net/t725-javalangnoclassdeffounderror-selenium-rc-with-junit-and-eclipse-ide	--> for problem occuring in eclipse
+
+qaautomation.net/?p=17 							--> for getting started with the rc
+
+openqa.org/selenium		--> downloading selenium
+
+http://automationtricks.blogspot.in/2010/10/how-to-use-css-in-selenium-to-locate.html --> by prashanth
+
+http://marakana.com/bookshelf/selenium_tutorial/locators.html
+
+http://seleniumhq.org/docs/01_introducing_selenium.html		---> BY JEFFERSON
+
+http://seleniumhq.org/docs/03_webdriver.html		---> BY JEFFERSON
+
+http://santoshsarmajv.blogspot.in/			---> Day 6 by prashanth	
+
+http://www.qaautomation.net/?p=388			---> Day 6 by prashanth	
+
+http://seleniumhq.org/docs/02_selenium_ide.html#introduction		---->  BY VAISHALI
+
+http://www.codediesel.com/php/selenium-ide-tutorial-part-1/		---->  BY VAISHALI
+
+http://www.codediesel.com/php/selenium-ide-tutorial-part-2/		---->  BY VAISHALI
+
+
+--------------------All by prashanth---------------------------
+http://code.google.com/p/selenium/wiki/GettingStarted
+http://www.qaautomation.net/?p=365 
+http://seleniumexamples.com/blog/tag/webdriver/
+http://google-opensource.blogspot.in/2009/05/introducing-webdriver.html
+http://seleniumhq.org/docs/01_introducing_selenium.html
+http://selenium-tutorial.blogspot.in/
+http://www.integratingstuff.com/2011/08/31/converting-selenium-1-to-selenium-2-tests/
+http://seleniumhq.org/docs/appendix_migrating_from_rc_to_webdriver.html
+http://www.aosabook.org/en/selenium.html
+http://www.qaautomation.net/?p=373
+http://automationtricks.blogspot.in/search/label/Selenium
+http://seleniumhq.org/docs/03_webdriver.html
+http://automationtricks.blogspot.in/2010/10/how-to-use-css-in-selenium-to-locate.html
+http://singztechmusings.wordpress.com/2011/04/10/getting-started-with-webdriver-with-a-simple-example/
+http://santoshsarmajv.blogspot.in/
+http://www.qaautomation.net/?p=388
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+java -jar selenium-server.jar {from the location where the server is }	--> to run the server (rc)
+
+one more command to write here to bypass the proxy. --> in notebook as told by prashanth
+
+what to write to start the server and the proxy 
+
+@ selenium-server standalone directory,
+write this 
+
+java -jar selenium-server-standalone-2.20.0.jar -Dhttp.proxyHost=gnrproxy.patni.com -Dhttp.proxyPort=8080 -Dhttp.proxyUser=hu800229 -Dhttp.proxyPassword=*********-firefoxProfileTemplate "C:\Documents and Settings\hu800229\Application Data\Mozilla\Firefox\Profiles\k9dl5259.default"
+
+To handle multiple windows use : 
+
+driver.switchTo().window((String) driver.getWindowHandles().toArray()[1]);
+			--- > where 1 is the index of the new window "previous index  "0""
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

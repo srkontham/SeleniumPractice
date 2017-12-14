@@ -1,0 +1,14 @@
+http://code.google.com/p/selenium/wiki/GettingStarted
+http://www.qaautomation.net/?p=365 
+http://seleniumexamples.com/blog/tag/webdriver/
+http://google-opensource.blogspot.in/2009/05/introducing-webdriver.html
+http://seleniumhq.org/docs/01_introducing_selenium.html
+http://selenium-tutorial.blogspot.in/
+http://www.integratingstuff.com/2011/08/31/converting-selenium-1-to-selenium-2-tests/
+http://seleniumhq.org/docs/appendix_migrating_from_rc_to_webdriver.html
+http://www.aosabook.org/en/selenium.html
+http://www.qaautomation.net/?p=373
+http://automationtricks.blogspot.in/search/label/Selenium
+http://seleniumhq.org/docs/03_webdriver.html
+http://automationtricks.blogspot.in/2010/10/how-to-use-css-in-selenium-to-locate.html
+http://singztechmusings.wordpress.com/2011/04/10/getting-started-with-webdriver-with-a-simple-example/
